@@ -8,7 +8,7 @@ public class SpringCicdTestApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringCicdTestApplication.class, args);
-		System.out.println("Application starts");
+		//logger.log("Application starts");
 	}
 
 }
