@@ -25,6 +25,7 @@ jobs:
     - name: Maven Verify
       run: mvn -B clean verify -Pintegration-test
   sonar:
+      needs: test
       name: Test - SonarCloud Scan
       runs-on: ubuntu-18.04
       steps:
